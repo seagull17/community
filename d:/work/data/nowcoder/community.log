@@ -1,0 +1,105 @@
+2022-03-28 16:25:56.155  INFO 2068 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication on seagulldeMacBook-Pro.local with PID 2068 (/Users/seagull/Desktop/project_nowcoder/community/target/classes started by seagull in /Users/seagull/Desktop/project_nowcoder/community)
+2022-03-28 16:25:56.165 DEBUG 2068 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-03-28 16:25:56.166  INFO 2068 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2022-03-28 16:25:56.458  INFO 2068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-28 16:25:56.462  INFO 2068 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-28 16:25:56.463  INFO 2068 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-03-28 16:25:56.487  INFO 2068 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2022-03-28 16:25:56.489  INFO 2068 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 316 ms
+2022-03-28 16:25:56.560  INFO 2068 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-28 16:25:56.601  INFO 2068 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-28 16:25:56.613  INFO 2068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-03-28 16:25:56.613  INFO 2068 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 0.757 seconds (JVM running for 3912.959)
+2022-03-28 16:25:56.614  INFO 2068 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-28 16:25:58.476  INFO 2345 --- [main] com.nowcoder.community.MapperTest        : Starting MapperTest on seagulldeMacBook-Pro.local with PID 2345 (started by seagull in /Users/seagull/Desktop/project_nowcoder/community)
+2022-03-28 16:25:58.477 DEBUG 2345 --- [main] com.nowcoder.community.MapperTest        : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-03-28 16:25:58.481  INFO 2345 --- [main] com.nowcoder.community.MapperTest        : No active profile set, falling back to default profiles: default
+2022-03-28 16:26:01.810  INFO 2345 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-28 16:26:02.821  INFO 2345 --- [main] com.nowcoder.community.MapperTest        : Started MapperTest in 4.877 seconds (JVM running for 6.025)
+2022-03-28 16:26:03.297  INFO 2345 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-28 16:26:03.467  INFO 2345 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-28 16:26:03.482 DEBUG 2345 --- [main] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ? 
+2022-03-28 16:26:03.564 DEBUG 2345 --- [main] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 101(Integer)
+2022-03-28 16:26:03.641 DEBUG 2345 --- [main] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2022-03-28 16:26:03.732  INFO 2345 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-28 16:26:03.752  INFO 2345 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-28 16:26:03.753  INFO 2345 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-28 16:26:44.592  INFO 2349 --- [main] com.nowcoder.community.MapperTest        : Starting MapperTest on seagulldeMacBook-Pro.local with PID 2349 (started by seagull in /Users/seagull/Desktop/project_nowcoder/community)
+2022-03-28 16:26:44.594 DEBUG 2349 --- [main] com.nowcoder.community.MapperTest        : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-03-28 16:26:44.595  INFO 2349 --- [main] com.nowcoder.community.MapperTest        : No active profile set, falling back to default profiles: default
+2022-03-28 16:26:48.044  INFO 2349 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-28 16:26:49.060  INFO 2349 --- [main] com.nowcoder.community.MapperTest        : Started MapperTest in 4.926 seconds (JVM running for 5.972)
+2022-03-28 16:26:49.492  INFO 2349 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-28 16:26:49.661  INFO 2349 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-28 16:26:49.674 DEBUG 2349 --- [main] c.n.c.dao.UserMapper.updateStatus        : ==>  Preparing: update user set status = ? where id = ? 
+2022-03-28 16:26:49.732 DEBUG 2349 --- [main] c.n.c.dao.UserMapper.updateStatus        : ==> Parameters: 1(Integer), 150(Integer)
+2022-03-28 16:26:49.737 DEBUG 2349 --- [main] c.n.c.dao.UserMapper.updateStatus        : <==    Updates: 0
+2022-03-28 16:26:49.747 DEBUG 2349 --- [main] c.n.c.dao.UserMapper.updateHeader        : ==>  Preparing: update user set header_url = ? where id = ? 
+2022-03-28 16:26:49.751 DEBUG 2349 --- [main] c.n.c.dao.UserMapper.updateHeader        : ==> Parameters: http://www.nowcoder.com/102.png(String), 150(Integer)
+2022-03-28 16:26:49.752 DEBUG 2349 --- [main] c.n.c.dao.UserMapper.updateHeader        : <==    Updates: 0
+2022-03-28 16:26:49.752 DEBUG 2349 --- [main] c.n.c.dao.UserMapper.updatePassword      : ==>  Preparing: update user set password = ? where id = ? 
+2022-03-28 16:26:49.753 DEBUG 2349 --- [main] c.n.c.dao.UserMapper.updatePassword      : ==> Parameters: hello(String), 150(Integer)
+2022-03-28 16:26:49.755 DEBUG 2349 --- [main] c.n.c.dao.UserMapper.updatePassword      : <==    Updates: 0
+2022-03-28 16:26:49.779  INFO 2349 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-28 16:26:49.791  INFO 2349 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-28 16:26:49.792  INFO 2349 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-28 16:32:56.249  INFO 2388 --- [main] com.nowcoder.community.MapperTest        : Starting MapperTest on seagulldeMacBook-Pro.local with PID 2388 (started by seagull in /Users/seagull/Desktop/project_nowcoder/community)
+2022-03-28 16:32:56.250 DEBUG 2388 --- [main] com.nowcoder.community.MapperTest        : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-03-28 16:32:56.251  INFO 2388 --- [main] com.nowcoder.community.MapperTest        : No active profile set, falling back to default profiles: default
+2022-03-28 16:32:59.287  INFO 2388 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-28 16:33:00.257  INFO 2388 --- [main] com.nowcoder.community.MapperTest        : Started MapperTest in 4.467 seconds (JVM running for 5.513)
+2022-03-28 16:33:00.805  INFO 2388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-28 16:33:00.983  INFO 2388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-28 16:33:01.004 DEBUG 2388 --- [main] c.n.community.dao.UserMapper.insertUser  : ==>  Preparing: insert into user ( username, password, salt, email, type, status, activation_code, header_url, create_time ) values(?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-03-28 16:33:01.069 DEBUG 2388 --- [main] c.n.community.dao.UserMapper.insertUser  : ==> Parameters: test(String), 123456(String), abc(String), test@qq.com(String), 0(Integer), 0(Integer), null, http://www.nowcoder.com/101.png(String), 2022-03-28 16:33:00.79(Timestamp)
+2022-03-28 16:33:01.076 DEBUG 2388 --- [main] c.n.community.dao.UserMapper.insertUser  : <==    Updates: 1
+2022-03-28 16:33:01.120  INFO 2388 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-28 16:33:01.130  INFO 2388 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-28 16:33:01.130  INFO 2388 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-28 19:38:42.470  INFO 2068 --- [Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-28 19:38:42.664  INFO 2068 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication on seagulldeMacBook-Pro.local with PID 2068 (/Users/seagull/Desktop/project_nowcoder/community/target/classes started by seagull in /Users/seagull/Desktop/project_nowcoder/community)
+2022-03-28 19:38:42.665 DEBUG 2068 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-03-28 19:38:42.666  INFO 2068 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2022-03-28 19:38:42.924  INFO 2068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-28 19:38:42.928  INFO 2068 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-28 19:38:42.928  INFO 2068 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-03-28 19:38:42.939  INFO 2068 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2022-03-28 19:38:42.939  INFO 2068 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 266 ms
+2022-03-28 19:38:43.005  INFO 2068 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-28 19:38:43.035  INFO 2068 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-28 19:38:43.045  INFO 2068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-03-28 19:38:43.046  INFO 2068 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 0.452 seconds (JVM running for 10427.0)
+2022-03-28 19:38:43.047  INFO 2068 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-28 19:38:45.436  INFO 2715 --- [main] com.nowcoder.community.MapperTest        : Starting MapperTest on seagulldeMacBook-Pro.local with PID 2715 (started by seagull in /Users/seagull/Desktop/project_nowcoder/community)
+2022-03-28 19:38:45.437 DEBUG 2715 --- [main] com.nowcoder.community.MapperTest        : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-03-28 19:38:45.438  INFO 2715 --- [main] com.nowcoder.community.MapperTest        : No active profile set, falling back to default profiles: default
+2022-03-28 19:38:48.445  INFO 2715 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-28 19:38:49.351  INFO 2715 --- [main] com.nowcoder.community.MapperTest        : Started MapperTest in 4.389 seconds (JVM running for 5.425)
+2022-03-28 19:38:49.800  INFO 2715 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-28 19:38:49.964  INFO 2715 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-28 19:38:49.987 DEBUG 2715 --- [main] c.n.c.d.D.selectDiscussPosts             : ==>  Preparing: select id, user_id, title, content, type, status, create_time, comment_count, score from discuss_post where status != 2 order by type desc, create_time desc limit ?, ? 
+2022-03-28 19:38:50.027 DEBUG 2715 --- [main] c.n.c.d.D.selectDiscussPosts             : ==> Parameters: 0(Integer), 10(Integer)
+2022-03-28 19:38:50.066 DEBUG 2715 --- [main] c.n.c.d.D.selectDiscussPosts             : <==      Total: 10
+2022-03-28 19:38:50.123 DEBUG 2715 --- [main] c.n.c.d.D.selectDiscussPostRows          : ==>  Preparing: select count(id) from discuss_post where status != 2 and user_id = ? 
+2022-03-28 19:38:50.127 DEBUG 2715 --- [main] c.n.c.d.D.selectDiscussPostRows          : ==> Parameters: 149(Integer)
+2022-03-28 19:38:50.134 DEBUG 2715 --- [main] c.n.c.d.D.selectDiscussPostRows          : <==      Total: 1
+2022-03-28 19:38:50.158  INFO 2715 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-28 19:38:50.167  INFO 2715 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-28 19:38:50.167  INFO 2715 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-28 19:39:52.624  INFO 2725 --- [main] com.nowcoder.community.MapperTest        : Starting MapperTest on seagulldeMacBook-Pro.local with PID 2725 (started by seagull in /Users/seagull/Desktop/project_nowcoder/community)
+2022-03-28 19:39:52.625 DEBUG 2725 --- [main] com.nowcoder.community.MapperTest        : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-03-28 19:39:52.626  INFO 2725 --- [main] com.nowcoder.community.MapperTest        : No active profile set, falling back to default profiles: default
+2022-03-28 19:39:55.602  INFO 2725 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-28 19:39:56.576  INFO 2725 --- [main] com.nowcoder.community.MapperTest        : Started MapperTest in 4.465 seconds (JVM running for 5.446)
+2022-03-28 19:39:57.005  INFO 2725 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-28 19:39:57.176  INFO 2725 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-28 19:39:57.190 DEBUG 2725 --- [main] c.n.c.d.D.selectDiscussPosts             : ==>  Preparing: select id, user_id, title, content, type, status, create_time, comment_count, score from discuss_post where status != 2 and user_id = ? order by type desc, create_time desc limit ?, ? 
+2022-03-28 19:39:57.242 DEBUG 2725 --- [main] c.n.c.d.D.selectDiscussPosts             : ==> Parameters: 149(Integer), 0(Integer), 10(Integer)
+2022-03-28 19:39:57.276 DEBUG 2725 --- [main] c.n.c.d.D.selectDiscussPosts             : <==      Total: 3
+2022-03-28 19:39:57.333 DEBUG 2725 --- [main] c.n.c.d.D.selectDiscussPostRows          : ==>  Preparing: select count(id) from discuss_post where status != 2 and user_id = ? 
+2022-03-28 19:39:57.335 DEBUG 2725 --- [main] c.n.c.d.D.selectDiscussPostRows          : ==> Parameters: 149(Integer)
+2022-03-28 19:39:57.340 DEBUG 2725 --- [main] c.n.c.d.D.selectDiscussPostRows          : <==      Total: 1
+2022-03-28 19:39:57.363  INFO 2725 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-28 19:39:57.372  INFO 2725 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-28 19:39:57.373  INFO 2725 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-28 21:06:31.340  INFO 2068 --- [Thread-33] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

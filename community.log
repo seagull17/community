@@ -1,0 +1,26 @@
+2022-04-01 10:54:08.894  INFO 1271 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication on seagulldeMacBook-Pro.local with PID 1271 (/Users/seagull/Desktop/project_nowcoder/community/target/classes started by seagull in /Users/seagull/Desktop/project_nowcoder/community)
+2022-04-01 10:54:08.895 DEBUG 1271 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-04-01 10:54:08.895  INFO 1271 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2022-04-01 10:54:09.376  INFO 1271 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-01 10:54:09.382  INFO 1271 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-01 10:54:09.382  INFO 1271 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-04-01 10:54:09.401  INFO 1271 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2022-04-01 10:54:09.401  INFO 1271 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 495 ms
+2022-04-01 10:54:09.683  INFO 1271 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-01 10:54:09.723  INFO 1271 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-04-01 10:54:09.738  INFO 1376 --- [main] com.nowcoder.community.LoggerTest        : Starting LoggerTest on seagulldeMacBook-Pro.local with PID 1376 (started by seagull in /Users/seagull/Desktop/project_nowcoder/community)
+2022-04-01 10:54:09.740 DEBUG 1376 --- [main] com.nowcoder.community.LoggerTest        : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-04-01 10:54:09.741  INFO 1376 --- [main] com.nowcoder.community.LoggerTest        : No active profile set, falling back to default profiles: default
+2022-04-01 10:54:09.774  INFO 1271 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-01 10:54:09.805  INFO 1271 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-04-01 10:54:09.811  INFO 1271 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 1.012 seconds (JVM running for 1121.729)
+2022-04-01 10:54:09.814  INFO 1271 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-01 10:54:13.423  INFO 1376 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-01 10:54:13.758  INFO 1376 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-04-01 10:54:14.137  INFO 1376 --- [main] com.nowcoder.community.LoggerTest        : Started LoggerTest in 4.927 seconds (JVM running for 6.05)
+2022-04-01 10:54:14.541 DEBUG 1376 --- [main] com.nowcoder.community.LoggerTest        : debug log
+2022-04-01 10:54:14.543  INFO 1376 --- [main] com.nowcoder.community.LoggerTest        :  info log
+2022-04-01 10:54:14.543  WARN 1376 --- [main] com.nowcoder.community.LoggerTest        : warn log
+2022-04-01 10:54:14.543 ERROR 1376 --- [main] com.nowcoder.community.LoggerTest        : error log
+2022-04-01 10:54:14.563  INFO 1376 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-01 11:06:37.798  INFO 1271 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
